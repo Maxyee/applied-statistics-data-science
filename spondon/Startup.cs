@@ -33,10 +33,10 @@ namespace spondon
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
-            });
+            });         
 
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(
+           services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
