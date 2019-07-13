@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/mohon/Desktop/spondon/spondon.csproj": {}
+    "C:\\Users\\Mohon\\Desktop\\Spondon_work\\spondon_backend\\spondon\\spondon.csproj": {}
   },
   "projects": {
-    "/home/mohon/Desktop/spondon/spondon.csproj": {
+    "C:\\Users\\Mohon\\Desktop\\Spondon_work\\spondon_backend\\spondon\\spondon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohon/Desktop/spondon/spondon.csproj",
+        "projectUniqueName": "C:\\Users\\Mohon\\Desktop\\Spondon_work\\spondon_backend\\spondon\\spondon.csproj",
         "projectName": "spondon",
-        "projectPath": "/home/mohon/Desktop/spondon/spondon.csproj",
-        "packagesPath": "/home/mohon/.nuget/packages/",
-        "outputPath": "/home/mohon/Desktop/spondon/obj/",
+        "projectPath": "C:\\Users\\Mohon\\Desktop\\Spondon_work\\spondon_backend\\spondon\\spondon.csproj",
+        "packagesPath": "C:\\Users\\Mohon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohon\\Desktop\\Spondon_work\\spondon_backend\\spondon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/mohon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Mohon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,6 +61,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
