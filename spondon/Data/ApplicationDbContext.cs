@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using spondon.Domins;
 
 namespace spondon.Data
 {
@@ -13,5 +14,19 @@ namespace spondon.Data
         {
 
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>(entity =>
+            {
+                //entity.HasKey(e => e.Apptid)
+                //                    .HasName("PK_appth");
+
+                //entity.ToTable("appth");
+
+            });
+        }
+
+        public virtual DbSet<User> Users { get; set; }
     }
 }
